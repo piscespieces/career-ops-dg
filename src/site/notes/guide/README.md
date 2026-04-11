@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/guide/readme/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/guide/readme/","tags":["gardenEntry"],"dg-note-properties":{}}
 ---
 
 # Career-Ops Documentation
