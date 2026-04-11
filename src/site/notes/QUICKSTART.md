@@ -239,11 +239,11 @@ You have completed the Quick Start. Here is what to read next depending on what 
 
 | I want to… | Go to |
 |---|---|
-| Make the evaluations feel more accurate | [How to customize the system to your career](how-to-guides/customize-the-system) |
-| Understand what the score and each block mean | [Scoring system reference](reference/scoring-system) |
-| Search dozens of company job pages automatically | [How to scan job portals](how-to-guides/scan-job-portals) |
-| Evaluate 10+ jobs in parallel | [How to batch-evaluate offers](how-to-guides/batch-evaluate-offers) |
-| See all available commands | [Commands reference](reference/commands) |
+| Make the evaluations feel more accurate | [How to customize the system to your career](/how-to-guides/customize-the-system) |
+| Understand what the score and each block mean | [Scoring system reference](/reference/scoring-system) |
+| Search dozens of company job pages automatically | [How to scan job portals](/how-to-guides/scan-job-portals) |
+| Evaluate 10+ jobs in parallel | [How to batch-evaluate offers](/how-to-guides/batch-evaluate-offers) |
+| See all available commands | [Commands reference](/reference/commands) |
 | Full setup options | [Setup Guide](https://github.com/santifer/career-ops/blob/main/docs/SETUP.md) |
 
 For a deeper look at all the commands right now, see the [Setup Guide](https://github.com/santifer/career-ops/blob/main/docs/SETUP.md). To customize the scoring system, archetypes, and negotiation scripts, just ask Claude Code — it can edit its own configuration files on your behalf.
