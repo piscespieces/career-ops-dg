@@ -6,8 +6,6 @@
 
 This guide walks you through setting up Career-Ops and running your first job evaluation. By the end, you will paste a job posting and get back a full report, a score, and a tailored PDF resume — all in one step.
 
-**Time to complete:** About 15 minutes.
-
 ---
 
 ## What you need before you start
