@@ -1,0 +1,27 @@
+{
+  "/": [
+    "README",
+    "QUICKSTART",
+    "explanation",
+    "how-to-guides",
+    "reference"
+  ],
+  "/explanation": [
+    "how-the-pipeline-works",
+    "how-to-think-about-archetypes",
+    "why-this-scoring-system"
+  ],
+  "/how-to-guides": [
+    "batch-evaluate-offers",
+    "customize-the-system",
+    "generate-a-pdf",
+    "prepare-for-an-interview",
+    "scan-job-portals"
+  ],
+  "/reference": [
+    "canonical-statuses",
+    "commands",
+    "profile-fields",
+    "scoring-system"
+  ]
+}
