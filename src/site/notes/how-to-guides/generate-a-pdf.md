@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/how-to-guides/generate-a-pdf/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/how-to-guides/generate-a-pdf/","title":"Generate a PDF","dg-note-properties":{"title":"Generate a PDF"}}
 ---
 
 # How to Generate a Standalone PDF

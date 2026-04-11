@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/explanation/how-to-think-about-archetypes/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/explanation/how-to-think-about-archetypes/","title":"Thinking About Archetypes","dg-note-properties":{"title":"Thinking About Archetypes"}}
 ---
 
 # How to Think About Archetypes

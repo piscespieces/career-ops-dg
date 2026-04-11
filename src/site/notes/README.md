@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/readme/","tags":["gardenEntry"],"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/readme/","title":"Home","tags":["gardenEntry"],"dg-note-properties":{"title":"Home"}}
 ---
 
 # Career-Ops Documentation
@@ -12,8 +12,8 @@ This folder contains the user-facing documentation for Career-Ops. It follows th
 
 Start here if you are new to Career-Ops. Tutorials are step-by-step guides that get you from zero to a working result.
 
-| Guide                     | What you will do                                                                  |
-| ------------------------- | --------------------------------------------------------------------------------- |
+| Guide                               | What you will do                                                                  |
+| ----------------------------------- | --------------------------------------------------------------------------------- |
 | [Getting Started](/getting-started) | Install the system, set up your profile and CV, and run your first job evaluation |
 
 ---

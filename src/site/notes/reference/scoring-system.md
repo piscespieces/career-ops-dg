@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/reference/scoring-system/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/reference/scoring-system/","title":"Scoring System Reference","dg-note-properties":{"title":"Scoring System Reference"}}
 ---
 
 # Scoring System Reference

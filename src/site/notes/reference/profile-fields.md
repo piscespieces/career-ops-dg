@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/reference/profile-fields/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/reference/profile-fields/","title":"Profile Fields","dg-note-properties":{"title":"Profile Fields"}}
 ---
 
 # Profile Fields Reference

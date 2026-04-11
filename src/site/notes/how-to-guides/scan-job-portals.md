@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/how-to-guides/scan-job-portals/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/how-to-guides/scan-job-portals/","title":"Scan Job Portals","dg-note-properties":{"title":"Scan Job Portals"}}
 ---
 
 # How to Scan Job Portals

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/reference/commands/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/reference/commands/","title":"Commands Reference","dg-note-properties":{"title":"Commands Reference"}}
 ---
 
 # Commands Reference

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/how-to-guides/customize-the-system/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/how-to-guides/customize-the-system/","title":"Customize the System","dg-note-properties":{"title":"Customize the System"}}
 ---
 
 # How to Customize the System to Your Career

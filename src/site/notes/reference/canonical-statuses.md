@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/reference/canonical-statuses/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/reference/canonical-statuses/","title":"Canonical Statuses","dg-note-properties":{"title":"Canonical Statuses"}}
 ---
 
 # Canonical Statuses Reference

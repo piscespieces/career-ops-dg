@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/explanation/how-the-pipeline-works/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/explanation/how-the-pipeline-works/","title":"Pipeline Explanation","dg-note-properties":{"title":"Pipeline Explanation"}}
 ---
 
 # How the Auto-Pipeline Works End to End

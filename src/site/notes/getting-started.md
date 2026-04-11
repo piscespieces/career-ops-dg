@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/getting-started/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/getting-started/","title":"Getting Started","dg-note-properties":{"title":"Getting Started"}}
 ---
 
 # Getting Started: Your First Job Evaluation

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/explanation/why-this-scoring-system/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/explanation/why-this-scoring-system/","title":"Why This Scoring System","dg-note-properties":{"title":"Why This Scoring System"}}
 ---
 
 # Why This Scoring System

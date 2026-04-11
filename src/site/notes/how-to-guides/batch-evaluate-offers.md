@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/how-to-guides/batch-evaluate-offers/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/how-to-guides/batch-evaluate-offers/","title":"Batch-evaluate Multiple Offers","dg-note-properties":{"title":"Batch-evaluate Multiple Offers"}}
 ---
 
 # How to Batch-Evaluate Multiple Offers
