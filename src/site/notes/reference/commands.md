@@ -4,7 +4,7 @@
 
 # Commands Reference
 
-> **Coming soon.** This reference is planned. In the meantime, see the [Setup Guide](../../docs/SETUP.md) for a summary of available commands.
+> **Coming soon.** This reference is planned. In the meantime, see the [Setup Guide](https://github.com/santifer/career-ops/blob/main/docs/SETUP.md) for a summary of available commands.
 
 A complete reference for every `/career-ops` subcommand. Use this page to look up what a command does, what arguments it accepts, and what output it produces.
 
