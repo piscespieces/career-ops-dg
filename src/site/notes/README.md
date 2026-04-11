@@ -14,13 +14,13 @@ Start here if you are new to Career-Ops. Tutorials are step-by-step guides that 
 
 | Guide                     | What you will do                                                                  |
 | ------------------------- | --------------------------------------------------------------------------------- |
-| [Getting Started](/quickstart) | Install the system, set up your profile and CV, and run your first job evaluation |
+| [Getting Started](/getting-started) | Install the system, set up your profile and CV, and run your first job evaluation |
 
 ---
 
 ## How-to guides — solve a specific problem
 
-Use these once you have completed the Quick Start. Each guide assumes you already have a working setup and focuses on one task.
+Use these once you have completed the Getting Started guide. Each guide assumes you already have a working setup and focuses on one task.
 
 | Guide | What it solves |
 |---|---|
@@ -59,4 +59,4 @@ Background reading for when you want to understand the reasoning behind how Care
 
 ## Next Steps
 
-Ready to set up Career-Ops? Head over to the [Getting Started](/quickstart) guide to run your first evaluation.
+Ready to set up Career-Ops? Head over to the [Getting Started](/getting-started) guide to run your first evaluation.
