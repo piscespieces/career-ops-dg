@@ -14,7 +14,7 @@ Start here if you are new to Career-Ops. Tutorials are step-by-step guides that 
 
 | Guide                     | What you will do                                                                  |
 | ------------------------- | --------------------------------------------------------------------------------- |
-| [Quick Start](/quickstart) | Install the system, set up your profile and CV, and run your first job evaluation |
+| [Getting Started](/quickstart) | Install the system, set up your profile and CV, and run your first job evaluation |
 
 ---
 
@@ -54,3 +54,9 @@ Background reading for when you want to understand the reasoning behind how Care
 | [How the auto-pipeline works end to end](/explanation/how-the-pipeline-works) | The full sequence from URL paste to report, PDF, and tracker entry |
 | [Why this scoring system](/explanation/why-this-scoring-system) | The philosophy behind quality over quantity and human-in-the-loop design |
 | [How to think about archetypes](/explanation/how-to-think-about-archetypes) | What archetypes are, how they affect scoring, and how to define yours |
+
+---
+
+## Next Steps
+
+Ready to set up Career-Ops? Head over to the [Getting Started](/quickstart) guide to run your first evaluation.
