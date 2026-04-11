@@ -1,15 +1,10 @@
 {
   "/": [
     "README",
-    "QUICKSTART",
-    "explanation",
+    "getting-started",
     "how-to-guides",
+    "explanation",
     "reference"
-  ],
-  "/explanation": [
-    "how-the-pipeline-works",
-    "how-to-think-about-archetypes",
-    "why-this-scoring-system"
   ],
   "/how-to-guides": [
     "batch-evaluate-offers",
@@ -17,6 +12,11 @@
     "generate-a-pdf",
     "prepare-for-an-interview",
     "scan-job-portals"
+  ],
+  "/explanation": [
+    "how-the-pipeline-works",
+    "how-to-think-about-archetypes",
+    "why-this-scoring-system"
   ],
   "/reference": [
     "canonical-statuses",
