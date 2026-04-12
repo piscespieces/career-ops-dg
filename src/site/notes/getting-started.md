@@ -16,18 +16,7 @@ Make sure you have the following installed on your computer:
 
 You do not need to know how to code. You only need to be comfortable running commands in a terminal.
 
-### Finding your built-in terminal
-
-**On macOS** Your Mac comes with **Terminal**, and it's ready to use.
-- Open **Spotlight** with `Cmd + Space`, type `Terminal`, and press Enter.
-- Or go to **Applications → Utilities → Terminal**.
-
-**On Windows** The easiest built-in option is **Windows Terminal** (available on Windows 10/11) or the older **Command Prompt**.
-- Press `Win + R`, type `cmd`, and hit Enter — this opens Command Prompt.
-- Or search for **"Windows Terminal"** in the Start menu (recommended on Windows 11).
-- PowerShell also works — search for it in the Start menu.
-
-Once you have a terminal open, you're ready to paste the commands in the next section (You can do this!)
+> **New to the terminal?** If you have never used a command line before, that is completely fine — but this guide is not the place to learn it. To get up to speed quickly, read the [Command Line for Beginners](https://www.freecodecamp.org/news/command-line-for-beginners/) handbook by freeCodeCamp. It covers everything you need to follow along here. Once you are comfortable opening a terminal and running a command, come back and continue from Step 1.
 
 ---
 
@@ -248,13 +237,13 @@ If something is not working the way this guide says it should, please report it.
 
 You have completed the Getting Started guide. Here is what to read next depending on what you want to do:
 
-| I want to… | Go to |
-|---|---|
-| Make the evaluations feel more accurate | [How to customize the system to your career](/how-to-guides/customize-the-system) |
-| Understand what the score and each block mean | [Scoring system reference](/reference/scoring-system) |
-| Search dozens of company job pages automatically | [How to scan job portals](/how-to-guides/scan-job-portals) |
-| Evaluate 10+ jobs in parallel | [How to batch-evaluate offers](/how-to-guides/batch-evaluate-offers) |
-| See all available commands | [Commands reference](/reference/commands) |
-| Full setup options | [Setup Guide](https://github.com/santifer/career-ops/blob/main/docs/SETUP.md) |
+| I want to…                                       | Go to                                                                         |
+| ------------------------------------------------ | ----------------------------------------------------------------------------- |
+| Make the evaluations feel more accurate          | [[how-to-guides/customize-the-system\|How to customize the system to your career]]          |
+| Understand what the score and each block mean    | [[reference/scoring-system\|Scoring system reference]]                                  |
+| Search dozens of company job pages automatically | [[how-to-guides/scan-job-portals\|How to scan job portals]]                                 |
+| Evaluate 10+ jobs in parallel                    | [[how-to-guides/batch-evaluate-offers\|How to batch-evaluate offers]]                       |
+| See all available commands                       | [[reference/commands\|Commands reference]]                                              |
+| Full setup options                               | [Setup Guide](https://github.com/santifer/career-ops/blob/main/docs/SETUP.md) |
 
 For a deeper look at all the commands right now, see the [Setup Guide](https://github.com/santifer/career-ops/blob/main/docs/SETUP.md). To customize the scoring system, archetypes, and negotiation scripts, just ask Claude Code — it can edit its own configuration files on your behalf.
