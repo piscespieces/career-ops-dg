@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/getting-started/","title":"Getting Started","dg-note-properties":{"title":"Getting Started"}}
 ---
 
-# Getting Started: Your First Job Evaluation
+# Your First Job Evaluation
 
 This guide walks you through setting up Career-Ops and running your first job evaluation. By the end, you will paste a job posting and get back a full report, a score, and a tailored PDF resume — all in one step.
 
@@ -14,9 +14,22 @@ Make sure you have the following installed on your computer:
 
 - **[Claude Code](https://claude.ai/code)** — the AI coding assistant that powers this system. Install it and log in before continuing.
 - **[Node.js](https://nodejs.org) version 18 or later** — a JavaScript runtime used for generating PDFs and running helper scripts.
-- **Git** — for cloning the project. Most computers already have it. To check, open a terminal and run `git --version`.
+- **[Git](https://git-scm.com/)** — for cloning the project. Most computers already have it. To check, open a terminal and run `git --version`.
 
 You do not need to know how to code. You only need to be comfortable running commands in a terminal.
+
+### Finding your built-in terminal
+
+**On macOS** Your Mac comes with **Terminal**, and it's ready to use.
+- Open **Spotlight** with `Cmd + Space`, type `Terminal`, and press Enter.
+- Or go to **Applications → Utilities → Terminal**.
+
+**On Windows** The easiest built-in option is **Windows Terminal** (available on Windows 10/11) or the older **Command Prompt**.
+- Press `Win + R`, type `cmd`, and hit Enter — this opens Command Prompt.
+- Or search for **"Windows Terminal"** in the Start menu (recommended on Windows 11).
+- PowerShell also works — search for it in the Start menu.
+
+Once you have a terminal open, you're ready to paste the commands in the next section (You can do this!)
 
 ---
 
