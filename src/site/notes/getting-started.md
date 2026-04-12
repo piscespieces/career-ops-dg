@@ -2,9 +2,7 @@
 {"dg-publish":true,"permalink":"/getting-started/","title":"Getting Started","dg-note-properties":{"title":"Getting Started"}}
 ---
 
-# Your First Job Evaluation
-
-This guide walks you through setting up Career-Ops and running your first job evaluation. By the end, you will paste a job posting and get back a full report, a score, and a tailored PDF resume — all in one step.
+This guide walks you through setting up Career-Ops and running **your first job evaluation**. By the end, you will paste a job posting and get back a full report, a score, and a tailored PDF resume — all in one step.
 
 ---
 
