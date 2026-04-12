@@ -123,7 +123,37 @@ If you are not sure what to write, look at `examples/cv-example.md` in this proj
 
 ---
 
-## Step 5: Set up job portals (optional)
+## Step 5: Set your target role types
+
+In Step 3, you told the system who you are. This step tells it what kinds of jobs you are going for.
+
+Career-Ops uses a file called `modes/_profile.md` to understand your target roles. It reads this file every time it scores a job, so the evaluations match your actual goals — not someone else's.
+
+The template that ships with Career-Ops includes example roles in AI and machine learning. If that is not your field, you will replace them with your own. Either way, you need to create the file first.
+
+Copy the template to create your personal file:
+
+```bash
+cp modes/_profile.template.md modes/_profile.md
+```
+
+> **Note:** `modes/_profile.md` is never saved to version control. It is safe to put personal details, salary expectations, and career notes in it.
+
+Now open `modes/_profile.md` in a text editor. The template has comments in it that explain each section. The key sections to fill in are:
+
+| Section | What to write |
+|---|---|
+| **Your Target Roles** | The role types you are applying for (for example, `Senior Backend Engineer` or `Data Engineer`). List each one with a short description of what that kind of employer is looking for. |
+| **Your Adaptive Framing** | For each role type, which of your projects or experiences to highlight. This helps the system talk about your work in terms each employer cares about. |
+| **Your Exit Narrative** | A short summary of your career story — where you have been and where you are headed. The system uses this when writing your CV summary and cover letters. |
+| **Your Comp Targets** | Notes on salary ranges for your target roles. The system uses this to flag whether an offer is above or below market. |
+| **Your Location Policy** | Whether you are open to remote, hybrid, or on-site work, and how strictly to score roles that do not match your preference. |
+
+Once this file exists, Career-Ops uses it for every evaluation going forward.
+
+---
+
+## Step 6: Set up job portals (optional)
 
 If you want to scan job boards later, copy the portal config file:
 
@@ -135,7 +165,7 @@ You can skip this for now. It is not needed to run your first evaluation.
 
 ---
 
-## Step 6: Open Claude Code
+## Step 7: Open Claude Code
 
 Start Claude Code inside the project folder:
 
@@ -149,7 +179,7 @@ When it opens, it reads `CLAUDE.md` and loads the Career-Ops system automaticall
 
 ---
 
-## Step 7: Evaluate your first job description
+## Step 8: Evaluate your first job description
 
 You are ready to run your first evaluation. There are two ways to do this:
 
