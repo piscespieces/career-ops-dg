@@ -153,19 +153,7 @@ Once this file exists, Career-Ops uses it for every evaluation going forward.
 
 ---
 
-## Step 6: Set up job portals (optional)
-
-If you want to scan job boards later, copy the portal config file:
-
-```bash
-cp templates/portals.example.yml portals.yml
-```
-
-You can skip this for now. It is not needed to run your first evaluation.
-
----
-
-## Step 7: Open Claude Code
+## Step 6: Open Claude Code
 
 Start Claude Code inside the project folder:
 
@@ -179,7 +167,7 @@ When it opens, it reads `CLAUDE.md` and loads the Career-Ops system automaticall
 
 ---
 
-## Step 8: Evaluate your first job description
+## Step 7: Evaluate your first job description
 
 You are ready to run your first evaluation. There are two ways to do this:
 
@@ -276,4 +264,6 @@ You have completed the Getting Started guide. Here is what to read next dependin
 | See all available commands                       | [[reference/commands\|Commands reference]]                                              |
 | Full setup options                               | [Setup Guide](https://github.com/santifer/career-ops/blob/main/docs/SETUP.md) |
 
-For a deeper look at all the commands right now, see the [Setup Guide](https://github.com/santifer/career-ops/blob/main/docs/SETUP.md). To customize the scoring system, archetypes, and negotiation scripts, just ask Claude Code — it can edit its own configuration files on your behalf.
+---
+
+*Guide written by [@yoncodes](https://x.com/yoncodes).*
