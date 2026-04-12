@@ -7,11 +7,11 @@
     "reference"
   ],
   "/how-to-guides": [
+    "scan-job-portals",
     "batch-evaluate-offers",
     "customize-the-system",
     "generate-a-pdf",
-    "prepare-for-an-interview",
-    "scan-job-portals"
+    "prepare-for-an-interview"
   ],
   "/explanation": [
     "how-the-pipeline-works",
