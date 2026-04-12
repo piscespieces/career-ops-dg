@@ -1,8 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/how-to-guides/scan-job-portals/","title":"Scan Job Portals","dg-note-properties":{"title":"Scan Job Portals"}}
+{"dg-publish":true,"permalink":"/how-to-guides/scan-job-portals/","title":"How to Scan Job Portals","dg-note-properties":{"title":"How to Scan Job Portals"}}
 ---
-
-# How to Scan Job Portals
 
 This guide walks through setting up `portals.yml` and running the portal scanner to find new job openings automatically.
 
