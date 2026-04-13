@@ -2,16 +2,16 @@
   "/": [
     "README",
     "getting-started",
-    "how-to-guides",
+    "How to guides",
     "explanation",
     "reference"
   ],
-  "/how-to-guides": [
-    "scan-job-portals",
+  "/How to guides": [
     "batch-evaluate-offers",
     "customize-the-system",
     "generate-a-pdf",
-    "prepare-for-an-interview"
+    "prepare-for-an-interview",
+    "scan-job-portals"
   ],
   "/explanation": [
     "how-the-pipeline-works",
