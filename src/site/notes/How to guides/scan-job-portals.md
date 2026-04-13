@@ -184,14 +184,43 @@ Use this option when:
 
 ---
 
-<!-- ============================================================
-     SECTION PLACEHOLDER: Read the scan output
-     
-     Cover:
-     - What the summary table means (found / filtered / duped / new)
-     - Where new jobs go (data/pipeline.md)
-     - What scan-history.tsv is and why it matters
-     ============================================================ -->
+## Read the scan output
+
+When the scan finishes, you will see a summary like this:
+
+```text
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Portal Scan — 2026-04-13
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Companies scanned:     42
+Total jobs found:      318
+Filtered by title:     291 removed
+Duplicates:            4 skipped
+New offers added:      23
+
+New offers:
+  + Anthropic | AI Engineer | San Francisco, CA
+  + ElevenLabs | Solutions Architect | Remote
+  ...
+
+→ Run /career-ops pipeline to evaluate new offers.
+```
+
+Here is what each line means:
+
+| Line | What it tells you |
+|---|---|
+| **Companies scanned** | How many companies from `tracked_companies` were checked |
+| **Total jobs found** | All open roles seen across those companies, before any filtering |
+| **Filtered by title** | Jobs removed because the title did not match your `title_filter` |
+| **Duplicates skipped** | Jobs already in your pipeline or tracker — not added again |
+| **New offers added** | Jobs that passed all filters and are new to you |
+
+If **New offers added** is 0, your title filter may be too strict. Try adding a keyword to your `positive` list and run the scan again.
+
+**Where new jobs go:** Each new offer is added as a line in `data/pipeline.md`. That is the list of jobs waiting to be evaluated.
+
+**What `data/scan-history.tsv` does:** Every URL the scanner sees — whether it was added, filtered, or skipped — gets logged here. This is how the scanner avoids showing you the same job twice across future scans. You do not need to edit this file.
 
 ---
 
