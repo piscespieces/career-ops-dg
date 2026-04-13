@@ -24,11 +24,11 @@ Use these once you have completed the Getting Started guide. Each guide assumes 
 
 | Guide | What it solves |
 |---|---|
-| [Customize the system to your career](/how-to-guides/customize-the-system) | Adjust archetypes, scoring weights, narrative, and deal-breakers |
-| [Scan job portals](/how-to-guides/scan-job-portals) | Set up `portals.yml` and run automated portal scans |
-| [Batch-evaluate multiple offers](/how-to-guides/batch-evaluate-offers) | Process a backlog of job URLs in parallel |
-| [Generate a standalone PDF](/how-to-guides/generate-a-pdf) | Create a tailored PDF resume for a specific job |
-| [Prepare for an interview](/how-to-guides/prepare-for-an-interview) | Build STAR+R stories and a company-specific prep report |
+| [Customize the system to your career](How%20to%20guides/customize-the-system.md) | Adjust archetypes, scoring weights, narrative, and deal-breakers |
+| [Scan job portals](How%20to%20guides/scan-job-portals.md) | Set up `portals.yml` and run automated portal scans |
+| [Batch-evaluate multiple offers](How%20to%20guides/batch-evaluate-offers.md) | Process a backlog of job URLs in parallel |
+| [Generate a standalone PDF](How%20to%20guides/generate-a-pdf.md) | Create a tailored PDF resume for a specific job |
+| [Prepare for an interview](How%20to%20guides/prepare-for-an-interview.md) | Build STAR+R stories and a company-specific prep report |
 
 ---
 

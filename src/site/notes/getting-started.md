@@ -257,10 +257,10 @@ You have completed the Getting Started guide. Here is what to read next dependin
 
 | I want to…                                       | Go to                                                                         |
 | ------------------------------------------------ | ----------------------------------------------------------------------------- |
-| Make the evaluations feel more accurate          | [[how-to-guides/customize-the-system\|How to customize the system to your career]]          |
+| Make the evaluations feel more accurate          | [[How to guides/customize-the-system\|How to customize the system to your career]]          |
 | Understand what the score and each block mean    | [[reference/scoring-system\|Scoring system reference]]                                  |
-| Search dozens of company job pages automatically | [[how-to-guides/scan-job-portals\|How to scan job portals]]                                 |
-| Evaluate 10+ jobs in parallel                    | [[how-to-guides/batch-evaluate-offers\|How to batch-evaluate offers]]                       |
+| Search dozens of company job pages automatically | [[How to guides/scan-job-portals\|How to scan job portals]]                                 |
+| Evaluate 10+ jobs in parallel                    | [[How to guides/batch-evaluate-offers\|How to batch-evaluate offers]]                       |
 | See all available commands                       | [[reference/commands\|Commands reference]]                                              |
 | Full setup options                               | [Setup Guide](https://github.com/santifer/career-ops/blob/main/docs/SETUP.md) |
 
