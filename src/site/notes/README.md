@@ -22,13 +22,13 @@ Start here if you are new to Career-Ops. Tutorials are step-by-step guides that 
 
 Use these once you have completed the Getting Started guide. Each guide assumes you already have a working setup and focuses on one task.
 
-| Guide | What it solves |
-|---|---|
+| Guide                                                                            | What it solves                                                   |
+| -------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| [Scan job portals](How%20to%20guides/scan-job-portals.md)                        | Set up `portals.yml` and run automated portal scans              |
+| [Batch-evaluate multiple offers](How%20to%20guides/batch-evaluate-offers.md)     | Process a backlog of job URLs in parallel                        |
 | [Customize the system to your career](How%20to%20guides/customize-the-system.md) | Adjust archetypes, scoring weights, narrative, and deal-breakers |
-| [Scan job portals](How%20to%20guides/scan-job-portals.md) | Set up `portals.yml` and run automated portal scans |
-| [Batch-evaluate multiple offers](How%20to%20guides/batch-evaluate-offers.md) | Process a backlog of job URLs in parallel |
-| [Generate a standalone PDF](How%20to%20guides/generate-a-pdf.md) | Create a tailored PDF resume for a specific job |
-| [Prepare for an interview](How%20to%20guides/prepare-for-an-interview.md) | Build STAR+R stories and a company-specific prep report |
+| [Generate a standalone PDF](How%20to%20guides/generate-a-pdf.md)                 | Create a tailored PDF resume for a specific job                  |
+| [Prepare for an interview](How%20to%20guides/prepare-for-an-interview.md)        | Build STAR+R stories and a company-specific prep report          |
 
 ---
 
