@@ -224,20 +224,65 @@ If **New offers added** is 0, your title filter may be too strict. Try adding a 
 
 ---
 
-<!-- ============================================================
-     SECTION PLACEHOLDER: Evaluate new offers from a scan
-     
-     Cover:
-     - After a scan, how to process pipeline.md
-     - Running /career-ops pipeline to evaluate pending URLs
-     ============================================================ -->
+## Evaluate new offers from a scan
+
+After a scan adds new offers to `data/pipeline.md` — your list of pending job offers — run the pipeline command to evaluate each one against your profile. This step uses Claude to read the job description, compare it against your `cv.md` and `modes/_profile.md`, and produce a scored summary for each role.
+
+Open Claude Code in the project folder and type:
+
+```
+/career-ops pipeline
+```
+
+Claude reads every pending URL in `data/pipeline.md`, visits each job posting, and evaluates it. When it finishes, you will see a result for each offer:
+
+```text
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Pipeline Evaluation — 2026-04-13
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Evaluated:   23 offers
+Skipped:      2 (URL unreachable)
+
+Results:
+  ★★★★★  Anthropic | AI Engineer | San Francisco, CA
+  ★★★★☆  ElevenLabs | Solutions Architect | Remote
+  ★★★☆☆  Mistral AI | Product Manager | Paris, France
+  ...
+
+→ Full reports saved to reports/
+```
+
+Here is what each part of the output means:
+
+| Output | What it tells you |
+|---|---|
+| **Evaluated** | How many offers were processed in this run |
+| **Skipped** | Offers whose URLs were unreachable — the URL stays in `pipeline.md` so you can retry later |
+| **Stars** | A fit score from one to five. Five stars means strong alignment with your profile; one star means significant gaps |
+| **Full evaluations** | Where to find the detailed write-up for each role |
+
+**To read the full evaluation for a role**, open its report in the `reports/` folder. Each report includes a summary of the role, a breakdown of how it matches your profile, and a recommendation on whether to pursue it.
 
 ---
 
-<!-- ============================================================
-     SECTION PLACEHOLDER: Schedule automatic scans
-     
-     Cover:
-     - Using /schedule or /loop to run scans on a recurring interval
-     - Suggested cadence (every 2-3 days)
-     ============================================================ -->
+## What to do next
+
+When `/career-ops pipeline` finishes, each job has a score from 1.0 to 5.0. You can find the full report for any role in the `reports/` folder. The score shows how well the role matches your profile.
+
+Use the score as your starting point:
+
+| Score             | Recommended action                                                                                                                    |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **4.5 or higher** | Strong match. Run `/career-ops apply` right away.                                                                                     |
+| **4.0 – 4.4**     | Good fit. Run `/career-ops apply`. You can also run `/career-ops contacto` first to reach out to someone on the team before applying. |
+| **3.5 – 3.9**     | Could go either way. Run `/career-ops deep` to learn more before you decide.                                                          |
+| **Below 3.5**     | Skip it unless you have a specific reason to apply.                                                                                   |
+
+Here is what each command does:
+
+- **`/career-ops apply`** — Opens the application form and writes answers tailored to your profile. It stops before submitting so you can review everything first.
+- **`/career-ops contacto`** — Finds a hiring manager or team member on LinkedIn and drafts a short outreach message for you to send.
+- **`/career-ops deep`** — Researches the company and the role in depth. Use this when you are on the fence and want more information before deciding.
+- **`/career-ops tracker`** — Shows the status of every role in your pipeline. Run this any time you want to see where things stand.
+
+> **Tip:** You do not have to go in order. If a role scores 4.8 but you have never heard of the company, run `/career-ops deep` first. The commands work on their own — use whichever one fits your situation.
