@@ -234,34 +234,28 @@ Open Claude Code in the project folder and type:
 /career-ops pipeline
 ```
 
-Claude reads every pending URL in `data/pipeline.md`, visits each job posting, and evaluates it. When it finishes, you will see a result for each offer:
+Claude reads every pending URL in `data/pipeline.md`, visits each job posting, and evaluates it. Results come back in batches. Each batch shows a table like this:
 
-```text
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Pipeline Evaluation — 2026-04-13
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Evaluated:   23 offers
-Skipped:      2 (URL unreachable)
+Batch 1 done (Anthropic, ElevenLabs, Mistral):
 
-Results:
-  ★★★★★  Anthropic | AI Engineer | San Francisco, CA
-  ★★★★☆  ElevenLabs | Solutions Architect | Remote
-  ★★★☆☆  Mistral AI | Product Manager | Paris, France
-  ...
+| #   | Company    | Role                | Score | Legitimacy                       |
+| --- | ---------- | ------------------- | ----- | -------------------------------- |
+| 024 | Anthropic  | AI Engineer         | 4.8/5 | High Confidence                  |
+| 025 | ElevenLabs | Solutions Architect | 4.1/5 | High Confidence — fast-growing   |
+| 026 | Mistral AI | Product Manager     | 3.2/5 | Proceed w/ Caution — role closed |
 
-→ Full reports saved to reports/
-```
+Here is what each column means:
 
-Here is what each part of the output means:
+| Column         | What it tells you                                                                                                                                                                            |
+| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **#**          | The report number. Use it to find the full report in `reports/` — for example, report 024 is `reports/024-anthropic-2026-04-13.md`                                                           |
+| **Score**      | How well the role fits your profile, from 1.0 to 5.0                                                                                                                                         |
+| **Legitimacy** | Whether the posting looks real and active. "High Confidence" means the job is live and the details check out. "Proceed w/ Caution" means something raised a flag — read the note next to it. |
 
-| Output | What it tells you |
-|---|---|
-| **Evaluated** | How many offers were processed in this run |
-| **Skipped** | Offers whose URLs were unreachable — the URL stays in `pipeline.md` so you can retry later |
-| **Stars** | A fit score from one to five. Five stars means strong alignment with your profile; one star means significant gaps |
-| **Full evaluations** | Where to find the detailed write-up for each role |
+**To read the full evaluation for a role**, you have two options:
 
-**To read the full evaluation for a role**, open its report in the `reports/` folder. Each report includes a summary of the role, a breakdown of how it matches your profile, and a recommendation on whether to pursue it.
+- **Open the report file directly** — find it in the `reports/` folder using the number from the table.
+- **Use the dashboard** — run `./dashboard/career-dashboard` from the project folder to browse all your reports in a terminal interface. You can filter by score and status, and open any report without leaving the terminal.
 
 ---
 
