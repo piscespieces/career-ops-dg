@@ -10,7 +10,7 @@ This guide walks you through setting up Career-Ops and running **your first job 
 
 Make sure you have the following installed on your computer:
 
-- **[Claude Code](https://claude.ai/code)** — the AI coding assistant that powers this system. Install it and log in before continuing.
+- **[Claude Code](https://claude.ai/code) or [Codex](https://developers.openai.com/codex/cli)** — the AI coding assistant that runs this system. Career-Ops works with both. Install one and log in before continuing.
 - **[Node.js](https://nodejs.org) version 18 or later** — a JavaScript runtime used for generating PDFs and running helper scripts.
 - **[Git](https://git-scm.com/)** — for cloning the project. Most computers already have it. To check, open a terminal and run `git --version`.
 
@@ -153,9 +153,9 @@ Once this file exists, Career-Ops uses it for every evaluation going forward.
 
 ---
 
-## Step 6: Open Claude Code
+## Step 6: Open your AI assistant
 
-Start Claude Code inside the project folder:
+**If you are using Claude Code**, run this from the project folder:
 
 ```bash
 claude
@@ -164,6 +164,8 @@ claude
 When it opens, it reads `CLAUDE.md` and loads the Career-Ops system automatically. You do not need to type any setup commands.
 
 > **Note:** The first time Claude Code opens in this folder, it may ask if you trust the project files. Say yes to continue.
+
+**If you are using Codex**, open your Codex client in the project folder instead. It reads `AGENTS.md`, which points it to the same instructions. Everything works the same way from there.
 
 ---
 
