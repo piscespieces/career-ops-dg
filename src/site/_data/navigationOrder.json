@@ -9,9 +9,8 @@
   "/How to guides": [
     "scan-job-portals",
     "batch-evaluate-offers",
-    "customize-the-system",
-    "generate-a-pdf",
-    "prepare-for-an-interview"
+    "apply-for-a-job",
+    "set-up-playwright"
   ],
   "/explanation": [
     "how-the-pipeline-works",
