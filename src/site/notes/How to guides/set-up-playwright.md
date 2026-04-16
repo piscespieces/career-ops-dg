@@ -40,7 +40,19 @@ This is a one-time step. You do not need to repeat it after `npm` updates.
 
 The Playwright MCP lets Claude control the browser directly during the `/career-ops apply` step — navigating to job application forms, reading field labels, and suggesting answers.
 
-Add the following entry to your Claude MCP configuration file (`.claude/settings.local.json` in the CareerOps root, or your global Claude settings):
+### Register the MCP server
+
+Run this command from anywhere to register the Playwright MCP with Claude Code:
+
+```bash
+claude mcp add playwright npx @playwright/mcp@latest
+```
+
+This is the one-step registration method from the [Playwright MCP docs](https://playwright.dev/docs/getting-started-mcp). It writes the server entry to your Claude settings automatically.
+
+### Manual configuration (alternative)
+
+If you prefer to configure it by hand, add the following entry to `.claude/settings.local.json` in the CareerOps root, or your global Claude settings:
 
 ```json
 {
@@ -66,6 +78,26 @@ npm run doctor
 ```
 
 Look for confirmation that Playwright, Chromium, and the MCP server are all ready. If the check passes, setup is complete.
+
+---
+
+## Watch the browser fill out the form
+
+By default, Playwright runs in headless mode — it reads and fills the form in the background without opening a visible window.
+
+To watch the browser open and fill out the form live, add an instruction to the apply command:
+
+```
+/career-ops apply [company_name] open up with playwright the browser and fill out the entire form
+```
+
+For example:
+
+```
+/career-ops apply Anthropic open up with playwright the browser and fill out the entire form
+```
+
+Without that instruction, CareerOps still uses Playwright and the MCP — it just operates silently in the background.
 
 ---
 
