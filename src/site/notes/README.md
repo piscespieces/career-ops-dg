@@ -25,9 +25,11 @@ Use these once you have completed the Getting Started guide. Each guide assumes 
 | Guide                                                                            | What it solves                                                   |
 | -------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | [Scan job portals](How%20to%20guides/scan-job-portals.md)                        | Set up `portals.yml` and run automated portal scans              |
+| [Set up Playwright](How%20to%20guides/set-up-playwright.md)                      | Enable browser automation for PDF generation and application forms |
 | [Batch-evaluate multiple offers](How%20to%20guides/batch-evaluate-offers.md)     | Process a backlog of job URLs in parallel                        |
 | [Customize the system to your career](How%20to%20guides/customize-the-system.md) | Adjust archetypes, scoring weights, narrative, and deal-breakers |
 | [Generate a standalone PDF](How%20to%20guides/generate-a-pdf.md)                 | Create a tailored PDF resume for a specific job                  |
+| [Apply for a job](How%20to%20guides/apply-for-a-job.md)                          | Fill out an application form with answers tailored to your profile and the role |
 | [Prepare for an interview](How%20to%20guides/prepare-for-an-interview.md)        | Build STAR+R stories and a company-specific prep report          |
 
 ---
