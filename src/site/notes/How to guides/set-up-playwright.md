@@ -87,13 +87,13 @@ By default, Playwright runs in headless mode — it reads and fills the form in 
 
 To watch the browser open and fill out the form live, add an instruction to the apply command:
 
-```
+```bash
 /career-ops apply [company_name] open up with playwright the browser and fill out the entire form
 ```
 
 For example:
 
-```
+```bash
 /career-ops apply Anthropic open up with playwright the browser and fill out the entire form
 ```
 
